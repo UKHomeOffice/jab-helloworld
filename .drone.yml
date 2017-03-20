@@ -6,7 +6,7 @@ pipeline:
     environment:
       - DOCKER_HOST=tcp://127.0.0.1:2375
     commands:
-      - docker build -t jab_helloworld .
+      - docker build -t jab-helloworld .
     when:
       branch: master
       event: push
